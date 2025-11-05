@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "type": "Story",
+      "title": "Man's best friend",
+      "coverImage": "story-1",
+      "contentPath": "Static/story-1/s1-text.txt"
+    },
+    {
+      "id": 2,
+      "type": "Story",
+      "title": "The smart little Bird",
+      "coverImage": "story-2",
+      "contentPath": "Static/story-2/s2-text.txt"
+    },
+    {
+      "id": 3,
+      "type": "Story",
+      "title": "Steven Paul Jobs",
+      "coverImage": "story-3",
+      "contentPath": "Static/story-3/s3-text.txt"
+    },
+    {
+      "id": 4,
+      "type": "Story",
+      "title": "Coffee",
+      "coverImage": "story-4",
+      "contentPath": "Static/story-4/s4-text.txt"
+    }
+  ]
+}

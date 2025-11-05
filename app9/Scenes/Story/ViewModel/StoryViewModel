@@ -1,0 +1,17 @@
+
+import Foundation
+import UIKit
+
+class StoryViewModel {
+    
+    private let dataFileManager = DataFileManager.shared
+    private(set) var story: Story
+    
+    func loadStory(with id: Int) {
+        guard let data = dataFileManager.getStory(with: id) else { return}
+        story.title = data.title
+        story.coverImage = UIImage(named: data.coverImage) ?? UIImage(systemName: "cross")!
+        story.text = data.content
+        //CGPAth
+    }
+}
