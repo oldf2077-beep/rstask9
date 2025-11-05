@@ -12,8 +12,8 @@ import UIKit
 class ImageDetailsViewController: UIViewController {
     private enum Constants {
         static let exitButtonSize: CGFloat = 40
-        static let exitButtonTopMargin: CGFloat = 30
-        static let exitButtonTrailingMargin: CGFloat = -25
+        static let exitButtonTop: CGFloat = 30
+        static let exitButtonTrailing: CGFloat = -25
         static let exitButtonImageName = "x.circle"
         static let minimumZoomScale: CGFloat = 1.0
         static let maximumZoomScale: CGFloat = 3.0
